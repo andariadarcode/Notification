@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         val replyPendingIntent: PendingIntent =
                 PendingIntent.getBroadcast(this,
-                        REQUEST_CODE_REPLAY,
+                        REQUEST_CODE_REPLY,
                         intent,
                         PendingIntent.FLAG_UPDATE_CURRENT)
 
@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         const val NOTIFICATION_ID = 101
-        const val REQUEST_CODE_REPLAY = 1
+        const val REQUEST_CODE_REPLY = 1
     }
 }
 
