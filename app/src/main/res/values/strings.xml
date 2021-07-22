@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notification</string>
+    <string name="show_notification">show notification</string>
+    <string name="channel_id">message_channel</string>
+    <string name="channel_name">message</string>
+    <string name="notification_channel_description">New message</string>
+    <string name="title_notification">New message</string>
+    <string name="text_notification">Hello!</string>
+    <string name="key_text_reply">text_reply</string>
+    <string name="reply_label">Input text</string>
+</resources>
+
